@@ -12,3 +12,7 @@ diff data/patch.txt data/patch.txt_tmp
 ```
 
 `data/base.bundle` and `data/expected.bundle` are ReactNative JS bundles built with Metro bundler.
+
+Expected result: after applying patch result string will be equal to content of `data/expected.bundle`.
+Actual result: after applying patch result string has differenct with content of `data/expected.bundle`: 
+- in column 592923 expected symbol is `y`, actual symbol is `b`
